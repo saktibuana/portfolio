@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+}
+
+body{
+  color: #404146;
+}
+
+nav {
+background-color: #404146;
+color: white;
+padding: 20px 40px;
+display: flex;
+}
+
+nav ul{
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+li {
+list-style: none;
+font-size: 15px; 
+}
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+h2 {
+  font-family: "Arial";
+  font-weight:bold;
+  font-size: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+span {
+  color: yellow;
+  vertical-align: bottom;
+  font-size: 190px;
+  line-height: 90px;
+  font-family: "Times New Roman";
+
+}
+
+  .greeting {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .ilustration {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 100;
+    padding: 15px 0;
+  }
+
+  .about {
+    background-color: #f4f4f4;
+    padding: 50px 250px;
+    text-align: center;
+  }
+
+  .about h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .project {
+    padding: 50px 100px;
+    text-align: center;
+  }
+
+  .project h4 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .project .list {
+    display: flex;
+    flex-direction:row;
+    row-gap: 50px;
+    justify-content: space-between;
+  }
+
+/* img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+} */
+
+.project .card img{
+  width:310px;
+}
+
+.ilustration img{
+  width:300px;
+}
